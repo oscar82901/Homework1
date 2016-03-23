@@ -37,9 +37,12 @@ class DisplayLabel: UILabel {
         }
     }
     
+    
+    
     func dot(){
-        
+        if self.text?.containsString(".") == false {
         self.text = self.text! + "."
+        }
         
     }
 
