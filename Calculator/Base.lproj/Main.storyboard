@@ -48,7 +48,7 @@
                                                     <action selector="operatorButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nte-I9-YUB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="10008" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niQ-xU-eqJ">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niQ-xU-eqJ">
                                                 <rect key="frame" x="82" y="0.0" width="82" height="82"/>
                                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
@@ -305,18 +305,18 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tb6-sx-iy2">
                                         <rect key="frame" x="0.0" y="328" width="328" height="82"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1111" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpd-eL-QrV">
+                                            <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DII-NL-Z6H">
                                                 <rect key="frame" x="0.0" y="0.0" width="82" height="82"/>
-                                                <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="lpd-eL-QrV" secondAttribute="height" multiplier="1:1" priority="750" id="uyB-vk-Y4h"/>
+                                                    <constraint firstAttribute="width" secondItem="DII-NL-Z6H" secondAttribute="height" multiplier="1:1" priority="750" id="rTU-Qz-kLo"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="24"/>
                                                 <state key="normal" title="0">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="numericButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Va8-Jy-Xsi"/>
+                                                    <action selector="numericButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mNr-gA-v85"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1010" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPg-WP-iBD">
@@ -362,12 +362,6 @@
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstItem="lpd-eL-QrV" firstAttribute="height" secondItem="Tb6-sx-iy2" secondAttribute="height" id="BOv-IP-TvG"/>
-                                            <constraint firstItem="kPg-WP-iBD" firstAttribute="width" secondItem="lpd-eL-QrV" secondAttribute="width" id="Upy-Ah-XYR"/>
-                                            <constraint firstItem="XOc-0a-VZ0" firstAttribute="width" secondItem="lpd-eL-QrV" secondAttribute="width" id="Yal-ak-BUe"/>
-                                            <constraint firstItem="OSv-A6-hFn" firstAttribute="width" secondItem="lpd-eL-QrV" secondAttribute="width" id="vM8-F7-ic2"/>
-                                        </constraints>
                                     </stackView>
                                 </subviews>
                             </stackView>
